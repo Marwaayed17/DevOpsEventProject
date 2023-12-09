@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jdk-alpine
+FROM openjdk:11-jdk-alpine
 
 ADD /target/Projet-Spring.jar /Projet-Spring.jar
 
