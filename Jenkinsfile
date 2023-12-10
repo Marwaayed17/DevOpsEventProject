@@ -46,7 +46,7 @@ pipeline {
         }
         stage("Docker Compose") {
             steps {
-                sh "docker start"
+                sh "docker compose start"
             }
         }
         stage('Test the code') {
