@@ -11,6 +11,8 @@
     <groupId>tn.esprit</groupId>
     <artifactId>eventsProject</artifactId>
     <name>eventsProject</name>
+    <version>2.7.13</version>
+
     <description>eventsProject</description>
     <properties>
         <!-- JaCoCo Properties -->
