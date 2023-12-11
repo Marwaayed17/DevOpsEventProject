@@ -75,7 +75,6 @@
     </distributionManagement>
 
     <build>
-        <finalName>Projet-Spring</finalName>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
