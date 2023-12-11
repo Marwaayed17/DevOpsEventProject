@@ -1,5 +1,4 @@
-FROM adoptopenjdk/openjdk11:alpine-jre
-
-ADD /target/Projet-Spring.jar /Projet-Spring.jar
+FROM openjdk:11
 EXPOSE 8082
-ENTRYPOINT ["java", "-jar", "/Projet-Spring.jar"]
+ADD http://192.168.0.112:8081/repository/devops-validation/com/esprit/examen/tpAchatProject/1.0/tpAchatProject-1.0.jar app.jar
+ENTRYPOINT ["java", "-jar", "app.jar"]
